@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./myp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <nav class="navbar bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Andela</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="topnav">
+    <a href="#home" class="active">Logo</a>
+    <div id="myLinks">
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
+    <!--<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>-->
+  </div>
+  <div id="dex">
+    <div class="container" >
+        <div class="parent-container">
+        <div class="child-container" style="margin-right: 80px;">
+            <p class="text">
+           Work with the world's Leading Companies</p>
+           <p>By applying to join Andela's Talent Network, you are one step closer to finding your next role, advancing your career, and connecting with other talented engineers in our community. Cheers to that!</p>
+           <p>Here's what you should expect after you submit this form:</p>
+           <div class="circle">
+            <span class="circle__content"><strong>1</strong></span>
+           </div><span>A short assessment to test your fluency in English</span><br>
+          <div class="circle">
+            <span class="circle__content">2</span>
+          </div><span>Automated skill assessment
+            (1 hour)
+            </span><br>
+          <div class="circle">
+            <span class="circle__content">3</span>
+          </div><span>A live technical interview with a senior developer
+            (1 hour)</span><br>
+        </div>
+        <div class="child-container">
+            <label class="lab">First Name</label><br>
+            <input type="text" class="box"><br>
+            <label class="lab">Email</label><br>
+            <input type="email" class="box"><br>
+            <label class="lab">English Proficient</label><br>
+            <input type="text" class="box"><br>
+            <label class="lab">Primary Skill</label><br>
+            <input type="text" class="box"><br>
+            <label class="lab">Resume</label><br>
+            <input type="file" class="box"><br>
+            <input type="checkbox">I agree to Andela's Terms & Conditions<br>
+            <input type="checkbox">I understand that Andela will process my information in accordance with their Privacy Policy. I may withdraw my consent through unsubscribe links at any time.<br>
+            <button id="but">SUBMIT</button>
+        </div>
+        <div class="child-container">
+            <form>
+                <label class="lab">LAST NAME</label><br>
+                <input type="text" class="box"><br>
+                <label class="lab">COUNTRY</label><br>
+                <input type="datetime-local" class="box"><br>
+                <label class="lab">Years of Experience</label><br>
+                <input type="number" class="box"><br>
+                <label class="lab">Referred By (First Name & Last Name)</label><br>
+                <input type="text" class="box"><br>
+
+            </form>
+        </div>
+        </div>
+    </div>
+  </div>
+  <div id="dep">
+    <div class="container">
+      <div class="parent-container">
+        <div class="child-container feed">
+          <img src="./so.avif" alt="pics" width="100px" height="100px">
+          <span>Andela</span>
+        </div>
+        <div class="child-container">
+          <p><b>Discover Talent</b></p>
+          <p>For Companies</p>
+          <p>Enterprise</p>
+          <p>Case Studios</p>
+        </div>
+        <div class="child-container">
+          <p><b>Find Work</b></p>
+          <p>For Technologies</p>
+          <p>Learning Community</p>
+          <p>Leadership Program</p>
+          <p>Resources</p>
+        </div>
+        <div class="child-container">
+          <p><b>Andela</b></p>
+          <p>About Us</p>
+          <p>Events</p>
+          <p>Blog</p>
+          <p>Press Center</p>
+          <p>Careers</p>
+        </div>
+        <div class="child-container">
+          <p><b>Privacy Policy</b></p>
+          <p>Terms and Conditions</p>
+          <p>Modern Slavery Statement</p>
+        </div>
+      </div>
+    </div>
+   </div> 
+</body>
+</html>

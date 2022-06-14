@@ -1,0 +1,66 @@
+.container{
+ width: 1020px;
+ margin: auto;
+}
+.parent-container{
+    display: flex;
+}
+.child-container{
+    flex: 1;
+}
+.feed{
+    flex: 2;
+}
+.lab{
+    font-size: large;
+    
+}
+.box{
+    width: 300px;
+    height: 35px;
+    border-radius: 30px;
+}
+.text{
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+}
+.circle {
+    display: inline-table;
+    vertical-align: middle;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    
+    background-color: #bbb;
+    border-radius: 50%;
+}
+  
+  .circle__content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.but{
+    padding: 100px;
+    border-radius: 30px;
+}
+#dex{
+    background-image: url(./so.avif);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#dep{
+    background-color: green;
+}
+p {
+    color: white;
+}
+label {
+    color:white;
+}
